@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F7FA">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/app_logo"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mid-Term Result Portal"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Academic Excellence Tracker"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="32dp" />
+
+    <RadioGroup
+        android:id="@+id/rgRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/rbProfessor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professor"
+            android:checked="true"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/rbStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enrollment No / Username"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_field_background"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Password (Last 6 digits)"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/input_field_background"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/button_primary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo Credentials:\nProfessor: prof.vyas / pass123\nStudent: 220210107067 / 107067 (last 6 digits)"
+        android:textSize="12sp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:background="#E3F2FD"
+        android:padding="12dp" />
+
+</LinearLayout>

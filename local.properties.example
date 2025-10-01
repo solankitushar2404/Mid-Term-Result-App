@@ -1,0 +1,8 @@
+# Copy this file to local.properties and add your credentials
+sdk.dir=C\:\\Users\\YourUser\\AppData\\Local\\Android\\Sdk
+
+# Demo Credentials (for development only)
+PROF_USERNAME=prof.vyas
+PROF_PASSWORD=pass123
+STUDENT_USERNAME=220210107067
+STUDENT_PASSWORD=107067
