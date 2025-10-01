@@ -35,7 +35,7 @@ A professional Android application for managing mid-term examination results wit
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/yourusername/MAD_Project.git
+   git clone https://github.com/solankitushar2404/Mid-Term-Result-App.git
    ```
 
 2. **Open in Android Studio**
